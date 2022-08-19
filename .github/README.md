@@ -91,13 +91,7 @@ Distributed under the [GNU General Public License v3.0 License.](https://github.
 
 ## Acknowledgements
 
-Special thanks to these amazing projects/people which/who help power DANISH MUSIC BOT:
+Special thanks to these amazing projects/people which/who help power PANTHERS MUSIC BOT:
 
 # [Team Yukki](https://t.me/OfficialYukki)
-
-# Contact & Support
-
-## [Telegram Support](https://t.me/WEFRIENDSCIRCLE) 
-## [My Owner](https://instagram.com/amaninamdar_09?igshid=YmMyMTA2M2Y=)
-
 
