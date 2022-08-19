@@ -1,59 +1,103 @@
-<img src="https://telegra.ph/file/c0e014ff34f34d1056627.png" align="right" width="200" height="200"/>
+<p align="center"><img src="https://te.legra.ph/file/0a6de300e146564f8adad.jpg" alt="ICON" width="80%"/></p>
 
-# Yukki Music Bot <img src="https://img.shields.io/github/v/release/TeamYukki/YukkiMusicBot?color=black&logo=github&logoColor=black&style=social" alt="RELEASE">
-
-[Yukki Music Bot](https://github.com/TeamYukki/YukkiMusicBot) is a Powerful Telegram Music+Video Bot written in Python using Pyrogram and Py-Tgcalls by which you can stream songs, video and even live streams in your group calls via various sources.
-
-* Youtube, Soundcloud, Apple Music, Spotify, Resso, Live Streams and Telegram Audios & Videos support.
-* Written from scratch, making it stable and less crashes with attractive thumbnails.
-* Loop, Seek, Shuffle, Specific Skip, Playlists etc support
-* Multi-Language support
-
-
-# ⚡️ Getting Started [[Documentation](https://notreallyshikhar.gitbook.io/yukkimusicbot/)]
-
-> The official [documentation site](https://notreallyshikhar.gitbook.io/yukkimusicbot/) contains a lot of information. The best place to start is from the deployment section.
-
-## ⚠️ Heroku / Okteto / Railway
-
-We have temporarily disabled the deployment for  all these cloud service platforms due to security and ban issues. We don't want innocent users who sign up there to be banned from the platform as a result of this deployment. [Read More](https://t.me/TheYukki/2541)
-
-## 🖇 Generating Pyrogram String Session
-
-<p>
-<a href="https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
-<a href="https://t.me/YukkiStringBot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
+<h4 align="center">
+    A Telegram Music+video Bot written in Python using Pyrogram and Py-Tgcalls 
+</h4>
+<p align="center">
+    <a href="https://t.me/DANISHMUSIC_BOT"> Ready-To-Use Bot </a> •
+    <a href="https://notreallyshikhar.gitbook.io/yukkimusicbot/about/getting-started"> Documentation </a> •
+    <a href="https://instagram.com/amaninamdar_09?igshid=YmMyMTA2M2Y="> Contact Owner </a> •
+    <a href="https://t.me/WEFRIENDSCIRCLE"> Support Chat </a> 
 </p>
+    
+# [PANTHERS MUSIC BOT](https://t.me/DANISHMUSIC_BOT)
+A Powerful Telegram Music+Video Bot by which you can stream songs, videos and even live streams in your group calls via various sources. It comes with  user friendly and easy to use yet elegant features.
 
-## 🖇 VPS Deployment
+## Deployment
+Read [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/requirements) for Detailed Description and Setup Guide on deploying Bot.
 
-Checkout [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
+> Click on buttons to expand!
+<details>
+<summary><b>🔗 Requirements</b></summary>
+<br>
+    
+- [Python3.9](https://www.python.org/downloads/release/python-390/)
+- [Telegram API Key](https://docs.pyrogram.org/intro/setup#api-keys)
+- [Telegram Bot Token](https://t.me/botfather)
+- [MongoDB URI](https://telegra.ph/How-To-get-Mongodb-URI-04-06)
+- [Pyrogram String Session](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/string-session)
+    
+</details>
+
+<details>
+<summary><b>🔗 String Session</b></summary>
+<br>
+    
+> You'll need a [API_ID](https://notreallyshikhar.gitbook.io/yukkimusicbot/vars/mandatory-vars#1.-api_id) & [API_HASH](https://notreallyshikhar.gitbook.io/yukkimusicbot/vars/mandatory-vars#2.-api_hash) in order to generate pyrogram session. 
+> Always remeber to use good API combo else your account could be deleted.
+
+<h4> Generate Session via Repl: </h4>    
+<p><a href="https://replit.com/@NotReallyShikhar/Yukki-Music-String-Gen"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
+
+<h4> Generate Session via Telegram StringGen Bot: </h4>    
+<p><a href="https://t.me/YukkiStringBot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
+    
+</details>
+
+<details>
+<summary><b>🔗 Deploy to Heroku</b></summary>
+<br>
+
+> Heroku has two vars[ HEROKU_API_KEY & HEROKU_APP_NAME ] for Updater to work. 
+> By setting those two vars you can get logs of your heroku app, set var, edit var, delete vars , check dyno usage and update bot. 
+> Those two vars are not Mandatory! You can leave them blank too. 
+    
+<h4>Click the button below to deploy PANTHERS MUSIC BOT on Heroku!</h4>    
+<p><a href="https://dashboard.heroku.com/new?template=https://github.com/OPBLACKPANTHERS/PANTHERSMUSICBOT"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200"/></a></p>
+    
+</details>
+
+<details>
+<summary><b>🔗 Deploy to VPS</b></summary>
+<br>
+
+> Checkout [Docs](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/local-hosting-or-vps) for Detailed Explanation on VPS Deploy
 
 
-# 🏷 Support / Assistance
+```console
+opblackpanthers@MacBook~ $ git clone https://github.com/amaninamdar09/DANISHMUSICBOT
+opblackpanthers@MacBook~ $ cd DANISHMUSICBOT
+opblackpanthers@MacBook~ $ pip3 install -U -r requirements.txt
+opblackpanthers@MacBook~ $ cp sample.env .env
+```
+> Edit .env with your values and then start bot with
+```console
+opblackpanthers@MacBook~ $ bash start
+```
 
-Reach out to the maintainer at one of the following places:
+> Not Getting VPS Method? [Watch Tutorial](https://t.me/OfficialYukki/2275)
+</details>
 
-- [GitHub Issues](https://github.com/TeamYukki/yukkimusicbot/issues/new?assignees=&labels=question&template=SUPPORT_QUESTION.md&title=support%3A+)
-- Contact options listed on [this GitHub profile](https://github.com/TeamYukki)
-- [Telegram Support](https://t.me/YukkiSupport)
+## Config Vars
 
-If you want to say **thank you** or/and support active development of YukkiMusicBot:
-
-- Add a [GitHub Star](https://github.com/TeamYukki/YukkiMusicBot) to the project.
-- Fork the Repo :)
-- Write interesting articles about the project on [Dev.to](https://dev.to/), [Medium](https://medium.com/) or your personal blog.
-
-Together, we can make **YukkiMusicBot** better!
-# 📑 Acknowledgement / Credits
-
-Special thanks to these amazing projects/people which/who help power Yukki Music Bot:
-
-- [Pyrogram](https://github.com/pyrogram/pyrogram)
-- [Py-Tgcalls](https://github.com/pytgcalls/pytgcalls)
-- [CallsMusic Team](https://github.com/Callsmusic)
-- [TheHamkerCat](https://github.com/TheHamkerCat)
-- [Charon Baglari](https://github.com/XCBv021)
+- Checkout All [Available Vars](https://notreallyshikhar.gitbook.io/yukkimusicbot/vars/available-vars)
+- Checkout Only [Mandatory Vars](https://notreallyshikhar.gitbook.io/yukkimusicbot/vars/mandatory-vars)
+- Checkout Some [Configs](https://notreallyshikhar.gitbook.io/yukkimusicbot/setup-config/config)
 
 
-Reminder that you are great, you are enough, and your presence is valued. If you are struggling with your mental health, please reach out to someone you love and consult a professional.
+## License
+
+Distributed under the [GNU General Public License v3.0 License.](https://github.com/notreallyshikhar/YukkiMusicBot/blob/main/LICENSE) See `LICENSE.md` for more information.
+
+## Acknowledgements
+
+Special thanks to these amazing projects/people which/who help power DANISH MUSIC BOT:
+
+# [Team Yukki](https://t.me/OfficialYukki)
+
+# Contact & Support
+
+## [Telegram Support](https://t.me/WEFRIENDSCIRCLE) 
+## [My Owner](https://instagram.com/amaninamdar_09?igshid=YmMyMTA2M2Y=)
+
+
